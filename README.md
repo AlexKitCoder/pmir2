@@ -133,7 +133,7 @@ sh cmd.sh
 
     7.修改当前客户端请求IP,客户端目录下Mir2Config.ini,新增配置项
     [Network]
-    UseConfig=False
+    UseConfig=true
     IPAddress=你的服务器IP
 
     也可以自己编译客户端,将客户端目录下Client/Settings.cs中76行
